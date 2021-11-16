@@ -36,7 +36,16 @@ nav a{
     text-align: end;
 }
 
-.blog-post:not(:first-child):not(:last-child) p a:first-child {
+.blog-post:nth-child(3) p:first-of-type a:first-child {
      color: red;
      text-transform:capitalize;
+}
+
+footer{
+    color: red;
+    margin: auto;
+    position:absolute;
+}
+footer p:last-of-type a:last-of-type{
+    color: green;
 }
